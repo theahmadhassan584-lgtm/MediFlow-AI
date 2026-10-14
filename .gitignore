@@ -1,0 +1,50 @@
+# Environment & Secret files
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+.env.*.local
+*.env
+*.pem
+*.key
+*.cert
+*.crt
+
+# Exception: allow .env.example
+!.env.example
+
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Production & Build outputs
+dist/
+build/
+out/
+.next/
+.turbo/
+*.tsbuildinfo
+
+# Database dumps & local database files
+*.sql
+*.dump
+*.sqlite
+*.sqlite3
+*.db
+
+# Logs
+logs/
+*.log
+
+# OS & Editor generated files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
